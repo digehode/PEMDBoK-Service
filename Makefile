@@ -1,5 +1,5 @@
 PORT=8003
-SRC_DIR=pemdbok-service
+SRC_DIR=pemdbok_service
 IGNORE_MODELS=Session,AbstractBaseSession,AccessPermissions,ContentType,Permission,LogEntry,AbstractUser,AbstractBaseUser,PermissionsMixin,CaptchaStore,Group
 LDBPW=swordfish
 LDBUSER=pemdbok
