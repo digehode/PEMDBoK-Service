@@ -1,0 +1,73 @@
+# Web Application Development
+
+
+This programme is designed to give a rapid introduction to
+building web applications. It has a strong focus on the data and
+back-end services required to provide a rich end-user experience.
+
+While it does not set out to develop strong front-end design and user
+experience skills, the basics of HTML, JavaScript and CSS will be
+covered. At the end of the programme, learners should be ready to join
+a development team.  The programme uses Python and Django, but the
+concepts learned can be transferred to work with other languages and
+frameworks.
+
+# Learning Outcomes
+
+At the end of the programme, each learner will have:
+
+ - worked with python to create solutions to non-trivial problems.
+ - created test suites capable of testing individual functions as well
+   as aspects of a web application.
+ - worked with the Jinja2 template language to create user interfaces
+   that expose relevant data in an appropriate manner.
+ - worked with data stored in a database through simple SQL and an
+   ORM, capable of being updated after deployment.
+ - created an API for access to relevant data and used that API by
+   making asynchronous requests that update information displayed to a
+   user in a web page.
+ - built a full functioning, documented and tested web application
+   that is deployed to a cloud service.
+ - run their own project as well as contributed to at least one
+   of their peer's projects using git branches and pull requests.
+
+# Course Outline
+
+ - Week 1: Linux, version control and containers
+ - Week 2: Programming with Python
+ - Week 3: Testing and Documentation
+ - Week 4: Databases and Object-Relational Mapping with SQLAlchemy
+ - Week 5: Python challenge
+ - Week 6: Introduction to Django
+ - Week 7: Database Migration; Jinja2 Templates; HTML and CSS
+ - Week 8: Write your own app
+ - Week 9: JavaScript; Asynchronous requests; and "dynamic" web pages
+ - Week 10: Deployment
+
+### Weeks 1-2: The Development Environment
+
+In the first part of the bootcamp we will become familiar with the
+development environment and the programming language we will use for
+the back-end development.  This includes learning about version
+control with git, virtual environments and containerisation with
+docker.
+
+### Weeks 3-4: Testing and Data
+
+The bootcamp now moves on to good practices for documentation and testing, as well as structuring data in a database and accessing it in a way that makes it easier to incorporate in our web application.
+
+### Weeks 5-6
+
+Weeks 5 and 6 introduce the Django framework that will allow us to build web applications rapidly and in line with standards and user expectations.  We will use CSS and HTML as well as the Jinja2 templating language so that we can create rich pages that bring data from the back-end to the user.
+
+### Weeks 7-8
+
+In weeks 7 and 8 we look will look at more custom content and begin building our own individual apps.
+
+### Weeks 9-10
+
+In the final weeks of the bootcamp we look at making much more dynamic interfaces that can access the database without having to refresh the page. The final week will be spent polishing the web app and adding finishing touches ready for deployment.
+
+
+<!--  LocalWords:  Bootcamp Jinja ORM SQLAlchemy APIs bootcamp
+ -->
