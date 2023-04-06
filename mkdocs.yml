@@ -1,7 +1,11 @@
-site_name: 'PEMDBoK Service Development Blog'
+site_name: 'PEMDBoK Service Development'
+site_url: https://github.coventry.ac.uk/pages/csx239/pemdbok-service/
 
 nav:
   - Home: index.md
+  - Blog: blog.md
+  - Tags: tags.md
+    
    
 markdown_extensions:
   - codehilite
@@ -23,6 +27,13 @@ markdown_extensions:
       auto_append:
         - includes/abbreviations.md
 plugins:
+  - blogging:
+      dirs: # The directories to be included
+        - blog
+      features:
+        tags: 
+            index_page: tags.md
+            insert: top
   - search
   - macros:
       module_name: 'main'

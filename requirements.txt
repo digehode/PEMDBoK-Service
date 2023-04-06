@@ -9,3 +9,4 @@ mkdocs-windmill
 pdoc3
 markdown
 python-markdown-math
+mkdocs-blogging-plugin
