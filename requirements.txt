@@ -1,0 +1,11 @@
+mkdocs>=0.17.1
+mkdocs-markdownextradata-plugin
+mkdocs-material
+markdown-blockdiag
+WeasyPrint
+mkdocs-pdf-export-plugin 
+mkdocs-macros-plugin
+mkdocs-windmill
+pdoc3
+markdown
+python-markdown-math

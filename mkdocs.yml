@@ -1,0 +1,48 @@
+site_name: 'PEMDBoK Service Development Blog'
+
+nav:
+  - Home: index.md
+   
+markdown_extensions:
+  - codehilite
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.keys
+  - footnotes
+  - mdx_math
+  - tables
+  - pymdownx.tabbed:
+      alternate_style: true
+  - abbr
+  - attr_list
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+plugins:
+  - search
+  - macros:
+      module_name: 'main'
+      
+#extra:
+#  codelink: 'https://github.coventry.ac.uk/pages/CUEH/py-quickstart'
+#  codelink: 'http://localhost:8000'
+
+
+theme:
+  name: material
+  palette:
+    scheme: preference
+  # custom_dir: 'theme/'
+  # include_dir: 'theme/'
+extra_css:
+  - css/extra.css
+
+
+extra_javascript: 
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
