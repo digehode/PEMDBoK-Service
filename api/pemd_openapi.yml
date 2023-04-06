@@ -1,0 +1,16 @@
+openapi: 3.1.0
+info:
+  title: ERS Hub PEMD BoK
+  version: 0.0.1
+paths:
+   /ed:
+    get:
+      summary: Get the list of Engineering Disciplines
+      description: Retrieves the current list of Engineering Disciplines
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/????"
